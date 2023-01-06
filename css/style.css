@@ -1,11 +1,12 @@
 
 html,
 body {
-    background: #F2F2F2;
+    background: #FFFFFF;
     font-family: Montserrat;
     font-weight: 400;
     size: 16px;
     line-height: 1.55;
+    width: 100%;
     
 }
 
@@ -143,6 +144,79 @@ button {
     display: flex;
     justify-content: space-between;
     margin: 70px auto;
-    
     width: 1200px;
  }
+
+ .list {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+
+ }
+
+ .list li {
+    margin-top: 30px;
+ }
+
+ .list a {
+    text-decoration: none;
+    color: #544837;
+ }
+
+ .links li {
+    margin-bottom: 15px;
+ }
+
+ .footer_links p {
+    margin-bottom: 30px;
+    margin-top: 0;
+ }
+
+ .footer_links p, .form label {
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+
+ .form input {
+    padding: 15px;
+    width: 340px;
+ }
+
+ .product_manager {
+    display: flex;
+ }
+
+ .product_manager .img {
+    order: -1
+ }
+
+ .list img {
+    float: left;
+    margin-right: 30px;
+ }
+
+ .clear {
+    clear: both;
+ }
+
+ .benefits .description {
+    width: 525px;
+ }
+
+ .product_manager .description {
+    width: 505px;
+ }
+
+ .marketers .description {
+    width: 485px;
+ }
+
+
+
